@@ -1,0 +1,23 @@
+mat-form-field {
+  width: 50vw;
+  padding: 0;
+}
+
+.own-button-login-div {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 30%;
+  margin: 0 3%;
+}
+
+form{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}

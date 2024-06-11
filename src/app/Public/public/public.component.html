@@ -1,0 +1,7 @@
+<div class="own-twoside-div">
+  <div id="own-leftside-div"><app-leftside></app-leftside></div>
+  <div id="own-rightside-div">
+    <app-login *ngIf="!registerPage" (changePageLogin)="changePageFunction($event)"></app-login>
+    <app-signup *ngIf="registerPage" (changePage)="changePageFunction($event)"></app-signup>
+  </div>
+</div>

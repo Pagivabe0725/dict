@@ -1,0 +1,7 @@
+@import "../Scss/colors.scss";
+
+h2{
+    font-style: italic;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 2px $basicPrimaryColor;
+}

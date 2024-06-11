@@ -1,0 +1,20 @@
+<form>
+  <h2>Bejelentkezés</h2>
+  <mat-form-field>
+    <mat-label>Email:</mat-label>
+    <input type="email" matInput />
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Jelszó:</mat-label>
+    <input type="password" matInput />
+  </mat-form-field>
+
+</form>
+
+<div class="own-button-login-div">
+  <button mat-flat-button color="primary">Belépés</button>
+  <button mat-flat-button color="primary" (click)="changePageFunction(false)">
+    Regisztráció
+  </button>
+</div>
